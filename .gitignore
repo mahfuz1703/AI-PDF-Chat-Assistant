@@ -1,0 +1,133 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+nose2-junit.xml
+coverage.xml
+
+# Pyenv
+.python-version
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Jupyter
+.ipynb_checkpoints
+*.ipynb
+
+# MyPy, Pyright
+.mypy_cache/
+pyrightconfig.*
+
+# Logs
+*.log
+logs/
+
+# Environment files
+.env
+.env.*
+env.local
+
+# Mac
+.DS_Store
+
+# VS Code settings
+.history/
+
+# Node (if present)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Data, DBs and caches
+*.sqlite3
+*.db
+*.sqlite
+*.db-journal
+/.chromadb/
+chromadb/  # local chroma DB
+chroma_db/
+faiss_index/
+vectordb/
+vector_store/
+vectors/
+index/
+index.faiss
+indexer/
+embeddings/
+persisted_index/
+_db/
+
+# LangChain / model artifacts
+models/
+model/
+checkpoints/
+hf_models/
+transformers_cache/
+huggingface/
+hf_cache/
+safetensors_cache/
+
+# Hugging Face and dataset caches
+.cache/huggingface
+.cache/huggingface/hub
+.cache/huggingface/datasets
+.cache/torch
+
+# Temporary and system files
+*.swp
+*~
+._*
+
+# Distributed training
+*.pt
+*.bin
+
+# Secrets
+secrets.yml
+private_key.pem
+*.pem
+
+# Local config
+local_settings.py
+settings_local.py
+
+# Notebook output
+*.nb.html
+
+# Generated docs
+docs/_build/
+
+# Docker
+docker-compose.override.yml
+.env.docker
